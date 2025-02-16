@@ -4,7 +4,7 @@
 #### Test site "https://petstore.swagger.io/#/" 
 
 #### The project covers test for the users endpoint
-** All values are saved as a variable in the petstore environment
+* All values are saved as a variable in the petstore environment
 
 ##### The dependencies/libraries used are:
 * Newman
@@ -12,10 +12,10 @@
 
 #### Steps to execute test scripts/Prerequisites
  Below are the steps to set up and execute the test script:
- ** Navigate to cmd
- ** Run the command: npm i -g newman-reporter-html-extra to install newman and html reporter dependencies
- ** Run the command: newman run collection file path -e environment file path -r htmlextra --reporter-htmlextra-export collection file path.html
- ** The test report will be generated in the specified directory.
+ * Navigate to cmd
+ * Run the command: npm i -g newman-reporter-html-extra to install newman and html reporter dependencies
+ * Run the command: newman run collection file path -e environment file path -r htmlextra --reporter-htmlextra-export collection file path.html
+ * The test report will be generated in the specified directory.
 
 
 ### Notes
